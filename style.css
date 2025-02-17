@@ -166,7 +166,7 @@ align-items: center;
 }
 
 
-@media (max-width: 1450px) {
+@media (max-width: 1450px ) {
     .search-input {
         width: 400px;
     }
@@ -179,6 +179,20 @@ align-items: center;
         margin-top: 10px;
         }
 }
+/* @media (max-height: 750px) {
+    .search-input {
+        width: 400px;
+    }
+    .main-header{
+        height: 60px;
+        }
+     .logoheader{
+         max-width: 5%;
+        margin-left: 50px;
+        margin-top: 10px;
+        }
+} */
+
 
 @media (max-width: 1200px) {
     .nav-menu ul {

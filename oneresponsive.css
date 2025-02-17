@@ -1,0 +1,17 @@
+/* Responsive for notebook screens */
+@media (max-width: 1700px ) {
+    .container .herobackground .avengers {
+        max-width: 72%;
+        bottom: 0;
+        left: -50;
+    
+    }
+    .container  .content .contenth2 {
+        font-size: 30px;
+        margin-right: 0px;
+    }
+    .container .content .contentp {
+        font-size: 25px;
+        margin-right: 0px;;
+    }
+}
