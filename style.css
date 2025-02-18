@@ -194,11 +194,22 @@ align-items: center;
 } */
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1700px) {
+    .search-input {
+        width: 450px;
+    }
+    .main-header {
+        height: 65px;
+    }
+    .logoheader {
+        max-width: 6%;
+        margin-left: 40px;
+    }
     .nav-menu ul {
-        gap: 15px; /* ลดระยะห่างให้เหมาะสม */
-        padding: 0;
-        margin-right: 50px;
-        flex-direction: row;
+        gap: 10px;
+        margin-right: 150px;
+    }
+    .search-bar {
+        margin-top: 40px;
     }
 }
