@@ -5,6 +5,8 @@ body {
     box-sizing: border-box;
     font-family: pridi;
     background-color: #00315b;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -52,12 +54,20 @@ body {
     
 }
 
-.container{
+.container-left{
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+   
+}
+.container-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
    
 }
 .boxdetail{
