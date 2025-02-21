@@ -5,8 +5,12 @@
     overflow-x: hidden;
     overflow-y: hidden;
     box-sizing: border-box
+    
 }
  
+body{
+    
+}
 .main-header {
     display: flex;
     justify-content: space-between;
